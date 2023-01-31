@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Header with My Website Title, also bootstrap css and personal css-->
+    <meta charset="utf-8" />
+    <title>Lexi Zickella Mission 4 Assignment</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--Header with preferred name-->
+    <h1>Lexi Zickella</h1>
+    <br /><!--Picture of my husband and I snowmobiling-->
+    <img id="picFun" src="img/mission4.jpg" /><br /><br />
+    <p><!--Paragraph of what I am looking to get out of this class-->
+        I really am excited to learn how to become better at coding in general. I want to practice those
+        skills by adding to my knowledge of the subject. I also am looking forward to learning a strongly typed
+        language. Before this class I had only learned JavaScript and Python so far.
+    </p><br />
+    <!--List of Jobs I am interesed in-->
+    <p id="jobs">Top Job's:</p>
+    <div class="container">
+        <ul class="myUL">
+            <li>Project Management for Anthropologie</li>
+            <li>Product Management AWS</li>
+            <li>Interior Designer</li>
+        </ul>
+    </div>
+    <!--The Grade Calculator that shows grades based on inputs from the category list inputs-->
+    <h5>Grade Calculator</h5>
+    <p>Enter in your grade percentage (as a whole #) for the following categories:</p>
+    <form>
+        <label>Assignments: </label>
+        <input id="assignments" type="number" min="0" max="100" />
+        <br />
+        <label> Group Project: </label>
+        <input id="groupProject" type="number" min="0" max="100" />
+        <br />
+        <label>Quizzes: </label>
+        <input id="quizzes" type="number" min="0" max="100" />
+        <br />
+        <label>Midterm Exam: </label>
+        <input id="midtermExam" type="number" min="0" max="100" />
+        <br />
+        <label>Final Exam: </label>
+        <input id="finalExam" type="number" min="0" max="100" />
+        <br />
+        <label>INTEX: </label>
+        <input id="intex" type="number" min="0" max="100" />
+        <br /><br />
+        <input type="button" id="btnSend" value="Send" /><br /><br />
+
+        <!--Display of the calculted grades -->
+        <p>Percentage Grade:</p>
+        <p id="overallGrade"></p>
+        <p>Letter Grade:</p>
+        <p id="letterGrade"></p>
+    </form>
+    <!--bootstrap js, jquery, and personal js links-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>

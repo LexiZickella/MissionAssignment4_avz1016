@@ -1,0 +1,26 @@
+﻿/*CSS for the body tag*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+/*CSS for the label tag*/
+label{
+    font-size: 16px;
+}
+/*CSS for the textarea tag*/
+textarea {
+    font-size: 20px;
+}
+/*CSS for the img tag*/
+img {
+    width: 25%;
+    height:25%;
+}
+/*CSS for the dive.container class*/
+div.container {
+    text-align: center;
+}
+/*CSS for the bul.myUL class*/
+ul.myUL {
+    text-align: center;
+}
