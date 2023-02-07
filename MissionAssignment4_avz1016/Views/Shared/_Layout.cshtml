@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Header with My Website Title, also bootstrap css and personal css-->
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="Inputs">Grade-Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>This is the footer</footer>
+    <!--bootstrap js, jquery, and personal js links-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+</body>
+</html>
